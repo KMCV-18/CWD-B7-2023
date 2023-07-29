@@ -1,0 +1,12 @@
+body{ 
+background: linear-gradient(135deg, hsl(223, 60%, 93%) 10%, hsl(133, 55%, 68%) 60%, white 90%);
+}
+
+h1,h2,h3{
+    font-family: Times new roman;
+}
+p {
+    color: rgb(66, 69, 69);
+    font-family: monaco;
+    font-size: 160%;
+}

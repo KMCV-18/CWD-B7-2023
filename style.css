@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6 {
+    color:#1b5e20;
+    font-weight:300;
+}
+body{
+    border-style: solid;
+    border-color:#4db6ac;
+    border-width: 10px 20px 10px 20px;
+    margin: 50px;
+        background-image: linear-gradient(to right, rgba(34, 60, 95, 0), rgb(163, 251, 147));
+      }
+}
+
+
+.btn{
+    background-color:#004d40;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

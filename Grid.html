@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font-awesome Cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS --->
+    <link rel="stylesheet" href="style7.css">
+    <!-- Goggle Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+    <title> Grid_Visico, Karyl May C. </title>
+</head>
+
+<body>
+
+</body>
+
+<header> 
+<div class="navbar-fixed">
+<nav class="light-pink" style="background: linear-gradient(135deg, hsl(312, 53%, 60%) 10%, hsl(279, 54%, 61%) 60%, rgb(189, 201, 80) 90%);"> 
+<div class="responsive-container">
+    <div class="nav-wrapper">
+        <a href="" class="brand-logo left" style="font-family: lucida handwriting; font-weight: bolder; font: size 500px; text-indent: 150px;"> Grid 
+        <i class="fa-solid fa-table-cells" style="text-indent: 600%"> </i> </a>
+
+<!-- Sidenav with data target: mobile-demo -->
+<a href="#" data-target="mobile-demo" class="sidenav-trigger right"> <i class="fa-solid fa-bars"> </i> </a>
+    <div class="tab">
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#Grid-Container">Container</a></li>
+            <li><a href="#Grid-Introduction">Introduction</a></li>
+            <li><a href="#Grid-Offsets">Offsets</a></li>
+            <li><a href="#Grid-PushPull">Push & Pull</a></li>
+            <li><a href="#Grid-Layouts">Creating Layouts</a></li>
+            <li><a href="#Grid-Responsive">Responsive Layouts</a></li>
+        </ul>
+    </div>
+    </div>
+</div>
+</nav>   
+</div>
+
+<ul class="sidenav" id="mobile-demo">
+    <li><a href="#Grid-Container">Container</a></li>
+    <li><a href="#Grid-Introduction">Introduction</a></li>
+    <li><a href="#Grid-Offsets">Offsets</a></li>
+    <li><a href="#Grid-PushPull">Push & Pull</a></li>
+    <li><a href="#Grid-Layouts">Creating Layouts</a></li>
+    <li><a href="#Grid-Responsive">Responsive Layouts</a></li>
+</ul>
+
+</header>
+
+<!-- Section 1st -->
+<h1 class="center" style="background-color:rgb(209, 176, 220);   text-shadow: 10px 7px 7px rgb(217, 234, 149);"> What is GRID? </h1>
+<section class="section section-1st">
+    <div class="container">
+        <h5 class="center-align brown-text text-darken-3"> We are using a standard 12 column fluid responsive grid system. </h5>
+        <h4 class="center-align brown-text text-darken-2" style="font-family: 'Franklin Gothic Medium'; "> The GRID helps you layout your page in an ordered, easy fashion. </h4>
+        
+        <div class="grid-container">
+            <div class="grid-item"> 1 </div>
+            <div class="grid-item"> 2 </div>
+            <div class="grid-item"> 3 </div>  
+            <div class="grid-item"> 4 </div>
+            <div class="grid-item"> 5 </div>
+            <div class="grid-item"> 6 </div>  
+            <div class="grid-item"> 7 </div>
+            <div class="grid-item"> 8 </div>
+            <div class="grid-item"> 9 </div>  
+        </div>
+    </div>
+<br><br><br>
+</section>
+
+<!-- Section Container -->
+<section class="section section-container">
+    <div class="row container">
+    <div class="col s12 l6"  style="padding-top: 10%;">
+        <h2 class="brown-text text-darken-3"> Container </h2>
+        <h5 class="flow-text"> The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content.</h5>
+    </div>
+
+    <div class="col s12 l6" style="padding-top: 7%; padding-left: 3%;">
+        <img class="responsive-img" src="https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif" style="width: 8000vh;">
+<br><br><br><br><br><br><br>
+    </div>
+</section>
+
+<!-- Section Introduction-->
+<section class="section section-introduction">
+    <div class="container">
+        <h2 class="brown-text text-darken-3"> Introduction </h2>
+        <h5 class="brown-text text-darken-2"> Take a look at this section to quickly understand how the grid works! </h5>
+<br><br>
+
+        <div class="row container" style="display: flex; justify-content: center; align-items: center;">
+        <div class="col l6"> <h3 class="brown-text text-darken-2" style="font-size: 60px"> 12 Columns </h3> </div>
+            
+        <div class="col l6">
+            <p class="flow-text purple-text text-darken-3"> Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width. </p> </div>               
+        </div>
+<br><br>
+
+        <div class="row" id="row-intro">
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 1 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 2 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 3 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 4 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 5 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 6 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 7 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 8 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 9 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 10 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 11 </span>
+            </div>
+            <div class="card-panel" id="rows-activate">
+                <span class="flow-text"> 12 </span>
+            </div>
+        </div>
+
+
+    <div class="row">
+        <div class="card-panel deep-purple lighten-2" id="cp-rows" style="border-radius: 25px; text-align: center;">
+            <span class="s12 m6 flow-text"> This div is 12-columns wide on all screen sizes </span>
+        </div>
+        <div class="card-panel yellow lighten-4 col s12 m6" id="cp-rows" style="border-radius: 25px; text-align: center;">
+            <span class="s12 m6 flow-text"> 6-columns (one-half) </span>
+        </div>
+        <div class="card-panel yellow lighten-4 col s12 m6" id="cp-rows" style="border-radius: 25px; text-align: center;">
+            <span class="s12 m6 flow-text"> 6-columns (one-half) </span>
+        </div>
+    </div>
+<br><br><br>
+    </div>
+
+</section>
+
+<!-- Section Offsets -->
+<section class="section section-offsets">
+    <div class="container"> 
+    <h2 class="brown-text text-darken-3"> Offsets </h2>
+        <h5 class="brown-text text-darken-2"> To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by. </h5>
+<br><br>
+
+    <div class="row">
+        <div class="card-panel deep-purple lighten-2" id="cp-rows" style="border-radius: 25px; text-align: center;">
+            <span class="s12 m6 flow-text"> This div is 12-columns wide on all screen sizes </span>
+        </div>
+
+        <div class="card-panel yellow lighten-4 col s6 offset-s6" id="cp-rows" style="border-radius: 25px; text-align: center;">
+            <span class="s12 m6 flow-text"> 6-columns (one-half) </span>
+        </div>
+    </div>
+<br><br><br>
+    </div>
+</section>
+
+<!-- Section Push & Pull -->
+<section class="section section-pushnpull">
+<div class="container">
+    <div class="row-container">
+        <div class="col s12 l6"  style="padding-top: 10%;">
+            <h2 class="brown-text text-darken-3" style="text-align: right;"> Push & Pull </h2>
+            <h5 class="flow-text" style="text-align: right;"> You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by. </h5>
+<br><br>
+            <div class="row">
+                <div class="card-panel purple lighten-4 col s7 push-s5" id="cp-pushnpull" style="border-radius: 25px; text-align: center;">
+                    <span class="s12 m6 flow-text"> This div is 7-columns wide on pushed to the right by 5-columns. </span>
+                </div>
+                <div class="card-panel purple lighten-3 col s5 pull-s7" id="cp-pushnpull" style="border-radius: 25px; text-align: center;">
+                    <span class="s12 m6 flow-text"> 5-columns wide pulled to the left by 7-columns. </span>
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br><br>
+</div>
+</section>
+
+<!-- Section Layouts -->
+<section class="section section-layouts">
+<div class="container">
+    <h2 class="brown-text text-darken-3"> Creating Layouts </h2>
+    <h5> Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive. </h5>
+<br><br>
+
+    <div class="container">
+        <div class="divider"></div>
+        <div class="section">
+          <h4> Karyl May </h4>
+          <h6> First Name </h6>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h4> Condino </h4>
+          <h6> Middle Name </h6>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+          <h4> Visico </h4>
+          <h6> Last Name </h6>
+        </div>
+    </div>
+
+    <div class="row container" style="display: flex; justify-content: center; align-items: center;">
+        <div class="col l6">
+            <h3 class="purple-text text-darken-4"> Section </h3>
+            <p class="flow-text brown-text text-darken-3"> The section class is used for simple top and bottom padding. Just add the section class to your div's containing large blocks of content.            </p> 
+        </div>       
+
+        <div class="col l6">
+            <h3 class="purple-text text-darken-4"> Divider </h3>
+            <p class="flow-text brown-text text-darken-3"> Dividers are 1 pixel lines that help break up your content. Just add the divider to a div in between your content.
+            </p> 
+        </div>               
+        </div>
+<br><br><br>
+</div>
+</section>
+
+<!-- Section Creating Responsive Layouts -->
+<section class="section section-cresponsive">
+    <div class="container">
+        <h2 class="brown-text text-darken-3 center"> Adding Responsiveness </h2>
+        <h5 class="center"> In the previous examples, we only defined the size for small screens using "col s12". This is fine if we want a fixed layout since the rules propagate upwards. By just saying s12, we are essentially saying "col s12 m12 l12". But by explicitly defining the size we can make our website more responsive.
+        </h5>
+<br><br>
+        
+<div class="row">
+    <div class="col s12 card-panel">
+        <span class="flow-text"> I am always full-width (col s12) </span>
+    </div>
+
+    <div class="col s12 m6 card-panel purple lighten-3">
+        <span class="flow-text"> I am full-width on mobile (col s12 m6)
+        </span>
+    </div>
+</div>
+<br><br><br>
+    </div>
+</section>
+
+<!-- Section Last -->
+<section class="section section-last">
+<hr>
+
+    <div class="container"> 
+<h3 div class= item style="text-align: center; color:rgb(87, 52, 52)"> Help Materialize Grow</h3>
+<h5 style="text-align: center;color:#f9d43f  ;"> We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any amount would help support and continue development on this project and is greatly appreciated. </h5>
+
+<center> 
+<button class="btn"> Support Us</button>
+</center>
+
+<h3 div class= item style="text-align: center; color:rgb(87, 52, 52)"> Join the Discussion </h3>
+<h5 style="text-align: center;color:#f9d43f  ;"> We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.
+<br> <br>
+
+<button class="btn"> Chat </button>
+
+<br>
+
+<h3 div class= item style="text-align: center; color:rgb(84, 44, 44)"> Connect </h3>
+
+<center> 
+<button class="btn"><i class="fa-regular fa-star"></i> Star </button>
+<button class="btn"><i class="fa-solid fa-comments"></i> 38,832 </button>
+</center>
+
+    </div>
+</section>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"> </script>"
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> </script>
+
+</body>
+</html>

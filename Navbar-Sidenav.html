@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Font-awesome Cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS --->
+    <link rel="stylesheet" href="style3.css">
+    <!-- Goggle Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+    <title> Navbar&Sidanav_Visico, Karyl May C. </title>
+</head>
+
+<div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper grey darken-1">
+        <a href="" style="font-size: 30px; font-family: Times new roman;"> 
+            <i class="fa-solid fa-heart small" style="text-indent: 70px;"> </i> Activity 4 </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href=""> Karyl May </a></li>
+          <li><a href=""> Visico </a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<main> <div class="container">
+
+<body>
+    <h1 class="center grey-text text-lighten-2" style="background-color:rgb(66, 95, 101); text-shadow: 4px 5px 5px rgb(84, 107, 98);"> Navbar & Sidenav </h1>
+    <p style="font-size:150%;text-align: center;"> The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right. </p>
+    <br>
+    <div class="divider"> </div>
+<br> <br>
+    <div class="container"> 
+
+<!-- Right ALigned Links -->
+<h3> Right Aligned Links </h3>
+<p> Right Aligned Links > To right align your navbar links, just add a right class to your <'ul'> that contains them. </p>
+<nav class="light-blue darken-4"> 
+    <div class="responsive-container">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo" style="font-family: copperplate; text-indent: 15px;"> FACEBOOK 
+            <i class="fa-brands fa-facebook"> </i>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li> 
+                <a href="" > HOME </a>
+            </li>
+            <li> 
+                <a href="" > WATCH </a>
+            </li>
+            <li> 
+                <a href="" > MARKETPLACE </a>
+            </li>
+            <li> 
+                <a href="" > GROUPS </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<br> <br>
+
+<center> 
+<div class="card-panel left-align" style="font-size:20px; width:750px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+      &lt;div class="nav-wrapper">
+        &lt;a href="#" class="brand-logo">Logo&lt;/a>
+        &lt;ul id="nav-mobile" class="right hide-on-med-and-down">
+          &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="collapsible.html">JavaScript&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Left ALigned Links -->
+<h3> Left Aligned Links </h3>
+<p> To left align your navbar links, just add a left class to your <'ul'> that contains them. </p>
+<nav class="green darken-2"> 
+    <div class="responsive-container">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo right" style="font-family: arial black;"> SPOTIFY 
+            <i class="fa-brands fa-spotify"> </i>
+        </a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li> 
+                <a href="" > HOME </a>
+            </li>
+            <li> 
+                <a href="" > SEARCH </a>
+            </li>
+            <li> 
+                <a href="" > FRIEND ACTIVITY </a>
+            </li>
+            <li> 
+                <a href="" > SETTINGS </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<br> <br>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:750px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+      &lt;div class="nav-wrapper">
+        &lt;a href="#" class="brand-logo right">Logo&lt;/a>
+        &lt;ul id="nav-mobile" class="left hide-on-med-and-down">
+          &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="collapsible.html">JavaScript&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Centering the Logo -->
+<center>
+<h3> Centering the Logo </h3>
+<p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your <'a class="brand-logo"''>. You will have to make sure yourself that links do not overlap if you use this.</p>
+</center>
+
+<nav class="light-pink" style="background: linear-gradient(135deg, hsl(312, 53%, 60%) 10%, hsl(279, 54%, 61%) 60%, rgb(189, 201, 80) 90%);"> 
+    <div class="responsive-container">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo center" style="font-family: lucida handwriting; font-weight: bolder; font: size 500px;;"> Instagram 
+            <i class="fa-brands fa-instagram"> </i>
+        </a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li> 
+                <a href="" > HOME </a>
+            </li>
+            <li> 
+                <a href="" > EXPLORE </a>
+            </li>
+            <li> 
+                <a href="" > NOTIFICATIONS </a>
+            </li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li> 
+                <a href="" > ACTIVITY </a>
+            </li>
+            <li> 
+                <a href="" > SETTINGS </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+<br> <br>
+<i class="fa-solid fa-house" style="font-size: 30px;"> HOME </i>
+<br> <br>
+<i class="fa-sharp fa-solid fa-magnifying-glass" style="font-size: 30px;"> SEARCH </i>
+
+<br> <br>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:750px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;a href="#" class="brand-logo center">Logo&lt;/a>
+      &lt;ul id="nav-mobile" class="left hide-on-med-and-down">
+        &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="collapsible.html">JavaScript&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+
+<br> <br> <br>
+<hr>
+<br> <br> <br> 
+
+<!-- Active Items -->
+<h3> Active Items </h3>
+<p> Add active class to your li tags to denote the current page. </p>
+<nav class="orange"> 
+    <div class="responsive-container">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo left"> SHOPEE 
+                <i class="fa-solid fa-bag-shopping" style="text-indent: 40px;"></i>
+            </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li> 
+                <a href="" > ME </a>
+            </li>
+            <li> 
+                <a href="" > SEARCH </a>
+            </li>
+            <li class="active"> 
+                <a href="" > MESSAGES </a>
+            </li>
+            <li> 
+                <a href="" > CART </a>
+            </li>
+            <li> 
+                <a href="" > LIVE </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<br> <br>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:850px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;a href="#!" class="brand-logo center">Logo&lt;/a>
+      &lt;ul class="left hide-on-med-and-down">
+        &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+        &lt;li class="active">&lt;a href="collapsible.html">JavaScript&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Extended Navbar with Tabs -->
+<h3> Extended Navbar with Tabs </h3>
+<p> To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper. </p>
+<nav class="deep-purple darken-4 nav-extended"> 
+    <div class="container">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo"> DISCORD 
+            <i class="fa-brands fa-discord"> </i>
+            </a>
+            <a href="" class="sidenav-trigger" data-target="mobile-demo"> 
+            <i class="fa solid fa-bars"> </i>
+            </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="active"> 
+                <a href="" > HOME </a>
+            </li>
+            <li> 
+                <a href="" > SERVERS </a>
+            </li>
+            <li> 
+                <a href="" > SETTINGS </a>
+            </li>
+            <li> 
+                <a href="" > ACCOUNT </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+            <li class="tab">
+                <a class="active" href="#invite">Invite</a>
+            </li>
+            <li class="tab">
+                <a class="active" href="#general">General</a>
+            </li>
+            <li class="tab">
+                <a class="active" href="#add">Add</a>
+            </li>
+            <li class="tab">
+                <a class="active" href="#settings">Settings</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sidenav Structure-->
+<ul class="sidenav" id="mobile-demo">
+    <li>
+        <a href=""> Home</a>
+    </li>
+    <li>
+        <a href=""> Servers </a>
+    </li>
+    <li>
+        <a href=""> Settings </a>
+    </li>
+    <li>
+        <a href=""> Account </a>
+    </li>
+</ul>
+
+<!-- Tabs Structure -->
+<div class="row center">
+    <div class="col s12" id="invite">
+        <div class="card-panel teal lighten-4" style="height: 530px;"> 
+        <br>
+        <i class="fa-solid fa-user-group large deep-purple-text text-darken-4"></i>       
+    <div class="col s9">
+        <p> HI! INVITE your Friends to Discord! <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+    </div>
+        </div>
+    </div>
+
+    <div class="col s12" id="general">
+        <div class="card-panel teal lighten-4" style="height: 530px;"> 
+        <br>     
+        <i class="fa-solid fa-house large deep-purple-text text-darken-3"> </i>
+    <div class="col s9">
+            <p> HI! WELCOME to Discord! <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+    </div>
+        </div>
+    </div>
+
+    <div class="col s12" id="add">
+        <div class="card-panel teal lighten-4" style="height: 530px;"> 
+        <br> 
+        <i class="fa-solid fa-plus large deep-purple-text text-darken-3"> </i>
+    <div class="col 7">
+            <p> HI! ADD your Friends to Discord! <br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+    </div>  
+        </div>
+    </div>
+
+    <div class="col s12" id="settings">
+        <div class="card-panel teal lighten-4" style="height: 530px;"> 
+        <br> 
+        <i class="fa-solid fa-gear large deep-purple-text text-darken-1"> </i>
+    <div class="col s8">
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+    </div>
+        </div>
+    </div>
+    
+
+</div>
+<br> <br>
+
+<!-- Fixed Navbar -->
+<h3> Fixed Navbar </h3>
+<p> To make the navbar fixed, you have to add an outer wrapping div with the class navbar-fixed. This will offset your other content while making your nav fixed. You can adjust the height of this outer div to change how much offset is on your content. </p>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:680px;"> 
+<pre><code class="language-markup">
+    &lt;div class="navbar-fixed">
+    &lt;nav>
+      &lt;div class="nav-wrapper">
+        &lt;a href="#!" class="brand-logo">Logo&lt;/a>
+        &lt;ul class="right hide-on-med-and-down">
+          &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/nav>
+  &lt;/div>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Navbar Dropdown Menu -->
+<h3> Navbar Dropdown Menu </h3>
+<p> To add a navbar dropdown menu, add the ul dropdown structure into the page. Then, add an element to trigger the dropdown menu. Make sure to supply the id of the dropdown structure to the data-target attribute of the dropdown trigger. </p>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li>
+      <a href="">Alpha</a>
+    </li>
+    <li>
+      <a href="">Beta</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="">Omega</a>
+    </li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper grey lighten-1">
+      <a href="#!" class="brand-logo" style="text-indent: 30px;"> Activity 4</a>
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a href="">Karyl May</a>
+        </li>
+        <li>
+          <a href="">Visico</a>
+        </li>
+<!-- Dropdown Trigger -->
+        <li>
+          <a class="dropdown-trigger" href="" data-target="dropdown1">
+            <i class="material-icons right">arrow_drop_down</i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:800px;"> 
+<pre><code class="language-markup">
+    &lt;!-- Dropdown Structure -->
+    &lt;ul id="dropdown1" class="dropdown-content">
+      &lt;li>&lt;a href="#!">one&lt;/a>&lt;/li>
+      &lt;li>&lt;a href="#!">two&lt;/a>&lt;/li>
+      &lt;li class="divider">&lt;/li>
+      &lt;li>&lt;a href="#!">three&lt;/a>&lt;/li>
+    &lt;/ul>
+    &lt;nav>
+      &lt;div class="nav-wrapper">
+        &lt;a href="#!" class="brand-logo">Logo&lt;/a>
+        &lt;ul class="right hide-on-med-and-down">
+          &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+          &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+          &lt;!-- Dropdown Trigger -->
+          &lt;li>&lt;a class="dropdown-trigger" 
+          href="#!" data-target="dropdown1">Dropdown&lt;
+          i class="material-icons right">arrow_drop_down</i>&lt;/i>&lt;/a>&lt;/li>
+        &lt;/ul>
+      &lt;/div>
+    &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Icon Links -->
+<h3> Icon Links </h3>
+<p> You can add icons into links. For icon only links you don't need any additional class. Just pop the i tag in and it will work. </p>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:970px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;a href="#!" class="brand-logo">&lt;i class="material-icons">cloud&lt;/i>Logo&lt;/a>
+      &lt;ul class="right hide-on-med-and-down">
+        &lt;li>&lt;a href="sass.html">&lt;i class="material-icons">search&lt;/i>&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="badges.html">&lt;i class="material-icons">view_module&lt;/i>&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="collapsible.html">&lt;i class="material-icons">refresh&lt;/i>&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="mobile.html">&lt;i class="material-icons">more_vert&lt;/i>&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> 
+
+<p> For adding an icon to a text link you need to add either a left or right class to the icon depending on where you want the icon to be. </p>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:960px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;a href="#!" class="brand-logo">Logo&lt;/a>
+      &lt;ul class="right hide-on-med-and-down">
+        &lt;li>&lt;a href="sass.html">&lt;i class="material-icons left">search&lt;/i>Link with 
+        Left Icon&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="badges.html">&lt;i class="material-icons right">view_module</i>&lt;/i>
+        Link with Right Icon&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Buttons -->
+<h3> Buttons </h3>
+<p> You can add buttons into links. For buttons you don't need any additional class. Just pop the .btn class on the a tag. </p>
+
+<nav>
+    <div class="nav-wrapper grey">
+      <a href="" class="brand-logo" style="text-indent: 30px;"> Activity 4 </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="waves-effect waves-light btn"> Button </a></li>
+        <li><a class="waves-effect waves-light btn"> Button <i class="material-icons 
+        right"> attachment </i></a></li>
+        <li> <a class="waves-effect waves-light btn-large"> Large Button </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:900px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;a href="#!" class="brand-logo">Logo&lt;/a>
+      &lt;ul class="right hide-on-med-and-down">
+        &lt;li>&lt;a class="waves-effect waves-light btn">Button&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="waves-effect waves-light btn">Button 
+        &lt;i class="material-icons 
+        right">cloud&lt;/i>&lt;/a>&lt;/li>
+        &lt;li>&lt;a class="waves-effect waves-light btn-large">Large Button
+        &lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<h4> Halfway FAB in Extended Navbar </h4>
+<p> Add a halfway FAB to your extended navbar. </p>
+
+<nav class="nav-extended grey lighten-1">
+    <div class="nav-wrapper grey">
+      <a href="" class="brand-logo"> 
+        <i class="fa-solid fa-heart"  style="text-indent: 20px;"> </i> Activity 4 </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a> Alpha </a></li>
+        <li><a> Beta </a></li>
+        <li><a> Omega </a></li>
+      </ul>
+    </div>
+    <div class="nav-content">
+      <span class="nav-title" style="text-indent: 20px;"> Next </span>
+      <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+        <i class="material-icons"> add </i>
+      </a>
+    </div>
+  </nav>
+
+  <center> 
+    <div class="card-panel left-align" style="font-size:20px; width:900px;"> 
+<pre><code class="language-markup">
+    &lt;nav class="nav-extended">
+    &lt;div class="nav-wrapper">
+      &lt;a href="#!" class="brand-logo">Logo&lt;/a>
+      &lt;ul class="right hide-on-med-and-down">
+        &lt;li>&lt;a>A link&lt;/a>&lt;/li>
+        &lt;li>&lt;a>A second link&lt;/a>&lt;/li>
+        &lt;li>&lt;a>A third link&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+    &lt;div class="nav-content">
+      &lt;span class="nav-title">Title&lt;/span>
+      &lt;a class="btn-floating btn-large halfway-fab waves-effect waves-light 
+      teal">
+        &lt;i class="material-icons">add&lt;/i>
+      &lt;/a>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Search Bar -->
+<h3> Search Bar </h3>
+<p> You can add a search form in the navbar. </p>
+
+<nav>
+    <div class="nav-wrapper grey">
+        <form>
+            <div class="input-field">
+                <input id="search-example" type="search" required>
+                <label class="label-icon" for="search-example">
+                    <i class="material-icons"> search </i>
+                </label>
+                <i class="material-icons"> close</i>
+            </div>
+        </form>
+    </div>
+</nav>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:900px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;form>
+        &lt;div class="input-field">
+          &lt;input id="search" type="search" required>
+          &lt;label class="label-icon" for="search">&lt;i class="material-icons">
+          search&lt;/i>&lt;/label>
+          &lt;i class="material-icons">close&lt;/i>
+        &lt;/div>
+      &lt;/form>
+    &lt;/div>
+  &lt;/nav>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<!-- Mobile Collapse Button -->
+<h3> Mobile Collapse Button </h3>
+<p> When your nav bar is resized, you will see that the links on the right turn into a hamburger icon menu. Take a look at the example below to get this functionality. Add the entire sidenav-trigger line to your nav. </p>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:850px;"> 
+<pre><code class="language-markup">
+    &lt;nav>
+    &lt;div class="nav-wrapper">
+      &lt;a href="#!" class="brand-logo">Logo&lt;/a>
+      &lt;a href="#" data-target="mobile-demo" class="sidenav-trigger">
+      &lt;i class="material-icons">menu</i>&lt;/i>&lt;/a>
+      &lt;ul class="right hide-on-med-and-down">
+        &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="collapsible.html">Javascript&lt;/a>&lt;/li>
+        &lt;li>&lt;a href="mobile.html">Mobile&lt;/a>&lt;/li>
+      &lt;/ul>
+    &lt;/div>
+  &lt;/nav>
+
+  &lt;ul class="sidenav" id="mobile-demo">
+    &lt;li>&lt;a href="sass.html">Sass&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="badges.html">Components&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="collapsible.html">Javascript&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="mobile.html">Mobile&lt;/a>&lt;/li>
+  &lt;/ul>
+</code></pre>
+</div>
+</center>
+<br> <br>
+
+<h4> Initialization </h4>
+<p> After including the sidenav-trigger line into your navbar, all you have to do now initialize the plugin. This example below assumes you have not modified the classes in the above example. In the case that you have, just change the selector in the line below to match it.</p>
+
+<center> 
+    <div class="card-panel left-align" style="font-size:20px; width:700px;"> 
+<pre><code class="language-markup">
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</code></pre>
+</div>
+</center>
+<br> <br>
+</main>
+
+<footer class="page-footer docs-footer grey darken-1">
+    <div class="container">
+      <div class="row" style="margin-bottom: 0;">
+        <div class="col s12 m10 offset-m1">
+          <div class="row">
+            <div class="col l4 s12">
+              <h4>Help Materialize Grow</h4>
+              <p class="teal-text text-darken-4">We hope you have enjoyed using Materialize and if you feel like it has helped you out and want to support the team you can help us by donating or backing us on Patreon. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+              <a class="btn waves-effect waves-light teal lighten-2" href="/support-us.html">Support Us</a>
+
+            </div>
+            <div class="col l4 s12">
+              <h4> Join the Discussion </h4>
+              <p class="teal-text text-darken-4">We have a Gitter chat room set up where you can talk directly with us. Come in and discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
+              <a class="btn waves-effect waves-light teal lighten-2" target="_blank" href="https://gitter.im/Dogfalo/materialize">Chat</a>
+            </div>
+            <div class="col l4 s12" style="overflow: hidden;">
+              <h4 class="teal-text text-darken-4"> Connect</h4>
+              <iframe src="https://ghbtns.com/github-btn.html?user=dogfalo&repo=materialize&type=watch&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+              <br>
+              <a href="https://twitter.com/MaterializeCSS" class="twitter-follow-button white-text" data-show-count="true" data-size="large" data-dnt="true" >Follow @MaterializeCSS</a>
+            </div>
+          </div>
+
+
+<div style="height: 150px;"> </div>
+
+</div>
+
+
+    <!-- Jquery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>"
+    <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>
+    $(document).ready (function(){
+        // tabs init
+        $('.tabs').tabs();
+        // sidenav init
+        $('.sidenav').sidenav({
+            edge: 'right',
+            inDuration: 750,
+            outDuration: 300,
+        });
+        // dropdown init
+        $('.dropdown-trigger').dropdown();
+    });
+</script>
+</body>
+
+</html>
